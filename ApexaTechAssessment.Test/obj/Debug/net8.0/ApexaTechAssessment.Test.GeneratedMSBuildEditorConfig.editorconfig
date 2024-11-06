@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ApexaTechAssessment.Test
-build_property.ProjectDir = C:\Amitabh\TechnicalAssessments\ApexaTechnicalAssessment\ApexaTechAssessment.Test\
+build_property.ProjectDir = C:\Amitabh\TechnicalAssessments\GitHubDesktop\ApexaTestAssessment01\ApexaTechAssessment.Test\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

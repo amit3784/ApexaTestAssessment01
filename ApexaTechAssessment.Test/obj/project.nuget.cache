@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4cu+OhAy8zA=",
+  "dgSpecHash": "UtYpkeRjG38=",
   "success": true,
-  "projectFilePath": "C:\\Amitabh\\TechnicalAssessments\\ApexaTechnicalAssessment\\ApexaTechAssessment.Test\\ApexaTechAssessment.Test.csproj",
+  "projectFilePath": "C:\\Amitabh\\TechnicalAssessments\\GitHubDesktop\\ApexaTestAssessment01\\ApexaTechAssessment.Test\\ApexaTechAssessment.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\stara\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\stara\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

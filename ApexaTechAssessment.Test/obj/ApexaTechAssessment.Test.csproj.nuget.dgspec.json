@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Amitabh\\TechnicalAssessments\\ApexaTechnicalAssessment\\ApexaTechAssessment.Test\\ApexaTechAssessment.Test.csproj": {}
+    "C:\\Amitabh\\TechnicalAssessments\\GitHubDesktop\\ApexaTestAssessment01\\ApexaTechAssessment.Test\\ApexaTechAssessment.Test.csproj": {}
   },
   "projects": {
-    "C:\\Amitabh\\TechnicalAssessments\\ApexaTechnicalAssessment\\ApexaTechAssessment.Test\\ApexaTechAssessment.Test.csproj": {
+    "C:\\Amitabh\\TechnicalAssessments\\GitHubDesktop\\ApexaTestAssessment01\\ApexaTechAssessment.Test\\ApexaTechAssessment.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Amitabh\\TechnicalAssessments\\ApexaTechnicalAssessment\\ApexaTechAssessment.Test\\ApexaTechAssessment.Test.csproj",
+        "projectUniqueName": "C:\\Amitabh\\TechnicalAssessments\\GitHubDesktop\\ApexaTestAssessment01\\ApexaTechAssessment.Test\\ApexaTechAssessment.Test.csproj",
         "projectName": "ApexaTechAssessment.Test",
-        "projectPath": "C:\\Amitabh\\TechnicalAssessments\\ApexaTechnicalAssessment\\ApexaTechAssessment.Test\\ApexaTechAssessment.Test.csproj",
+        "projectPath": "C:\\Amitabh\\TechnicalAssessments\\GitHubDesktop\\ApexaTestAssessment01\\ApexaTechAssessment.Test\\ApexaTechAssessment.Test.csproj",
         "packagesPath": "C:\\Users\\stara\\.nuget\\packages\\",
-        "outputPath": "C:\\Amitabh\\TechnicalAssessments\\ApexaTechnicalAssessment\\ApexaTechAssessment.Test\\obj\\",
+        "outputPath": "C:\\Amitabh\\TechnicalAssessments\\GitHubDesktop\\ApexaTestAssessment01\\ApexaTechAssessment.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\stara\\AppData\\Roaming\\NuGet\\NuGet.Config",

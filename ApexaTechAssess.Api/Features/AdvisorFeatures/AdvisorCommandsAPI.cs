@@ -35,7 +35,7 @@ namespace ApexaTechAssess.Api.Features.AdvisorFeatures
             .WithOpenApi();
 
             ////Update Advisor 
-            app.MapPost("api/Advisor/Update", async (ISender sender,[FromBody] UpdateAdvisorCommand cmd) =>
+            app.MapPut("api/Advisor/Update", async (ISender sender,[FromBody] UpdateAdvisorCommand cmd) =>
             {
                 UpdateAdvisorCommandValidator _updateAdvisorValidator = new UpdateAdvisorCommandValidator();
                 var validationResults= _updateAdvisorValidator.Validate(cmd);

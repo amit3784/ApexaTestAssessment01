@@ -2395,11 +2395,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Amitabh\\TechnicalAssessments\\ApexaTechnicalAssessment\\ApexaTechAssess.Api\\ApexaTechAssess.Api.csproj",
+      "projectUniqueName": "C:\\Amitabh\\TechnicalAssessments\\GitHubDesktop\\ApexaTestAssessment01\\ApexaTechAssess.Api\\ApexaTechAssess.Api.csproj",
       "projectName": "ApexaTechAssess.Api",
-      "projectPath": "C:\\Amitabh\\TechnicalAssessments\\ApexaTechnicalAssessment\\ApexaTechAssess.Api\\ApexaTechAssess.Api.csproj",
+      "projectPath": "C:\\Amitabh\\TechnicalAssessments\\GitHubDesktop\\ApexaTestAssessment01\\ApexaTechAssess.Api\\ApexaTechAssess.Api.csproj",
       "packagesPath": "C:\\Users\\stara\\.nuget\\packages\\",
-      "outputPath": "C:\\Amitabh\\TechnicalAssessments\\ApexaTechnicalAssessment\\ApexaTechAssess.Api\\obj\\",
+      "outputPath": "C:\\Amitabh\\TechnicalAssessments\\GitHubDesktop\\ApexaTestAssessment01\\ApexaTechAssess.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\stara\\AppData\\Roaming\\NuGet\\NuGet.Config",

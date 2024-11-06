@@ -1,7 +1,7 @@
 [
   {
-    "ContainingType": "ApexaTechAssess.Api.Features.AdvisorFeatures.AdvisorCommandsAPI",
-    "Method": "\u003CAddRoutes\u003Eb__5_0",
+    "ContainingType": "ApexaTechAssess.Api.Features.AdvisorFeatures.AdvisorCommandsAPI\u002B\u003C\u003Ec",
+    "Method": "\u003CAddRoutes\u003Eb__0_0",
     "RelativePath": "api/Advisor/Create",
     "HttpMethod": "POST",
     "IsController": false,
@@ -22,8 +22,8 @@
     ]
   },
   {
-    "ContainingType": "ApexaTechAssess.Api.Features.AdvisorFeatures.AdvisorCommandsAPI",
-    "Method": "\u003CAddRoutes\u003Eb__5_2",
+    "ContainingType": "ApexaTechAssess.Api.Features.AdvisorFeatures.AdvisorCommandsAPI\u002B\u003C\u003Ec",
+    "Method": "\u003CAddRoutes\u003Eb__0_2",
     "RelativePath": "api/Advisor/Delete",
     "HttpMethod": "DELETE",
     "IsController": false,
@@ -86,10 +86,10 @@
     ]
   },
   {
-    "ContainingType": "ApexaTechAssess.Api.Features.AdvisorFeatures.AdvisorCommandsAPI",
-    "Method": "\u003CAddRoutes\u003Eb__5_1",
+    "ContainingType": "ApexaTechAssess.Api.Features.AdvisorFeatures.AdvisorCommandsAPI\u002B\u003C\u003Ec",
+    "Method": "\u003CAddRoutes\u003Eb__0_1",
     "RelativePath": "api/Advisor/Update",
-    "HttpMethod": "POST",
+    "HttpMethod": "PUT",
     "IsController": false,
     "Order": 0,
     "Parameters": [
