@@ -1,0 +1,110 @@
+[
+  {
+    "ContainingType": "ApexaTechAssess.Api.Features.AdvisorFeatures.AdvisorCommandsAPI",
+    "Method": "\u003CAddRoutes\u003Eb__5_0",
+    "RelativePath": "api/Advisor/Create",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cmd",
+        "Type": "ApexaTechAssess.Api.Features.AdvisorFeatures.Commands.CreateAdvisorCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApexaTechAssess.Api.Features.AdvisorFeatures.AdvisorCommandsAPI",
+    "Method": "\u003CAddRoutes\u003Eb__5_2",
+    "RelativePath": "api/Advisor/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cmd",
+        "Type": "ApexaTechAssess.Api.Features.AdvisorFeatures.Commands.DeleteAdvisorCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApexaTechAssess.Api.Features.AdvisorFeatures.AdvisorQueryAPISets\u002B\u003C\u003Ec",
+    "Method": "\u003CAddRoutes\u003Eb__0_0",
+    "RelativePath": "api/Advisor/GetAll",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ApexaTechAssess.Api.Features.AdvisorFeatures.Domain.Advisor, ApexaTechAssess.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApexaTechAssess.Api.Features.AdvisorFeatures.AdvisorQueryAPISets\u002B\u003C\u003Ec",
+    "Method": "\u003CAddRoutes\u003Eb__0_1",
+    "RelativePath": "api/Advisor/GetById",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "ApexaTechAssess.Api.Features.AdvisorFeatures.Qerries.GetAdvisorQueryById",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApexaTechAssess.Api.Features.AdvisorFeatures.Domain.Advisor",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApexaTechAssess.Api.Features.AdvisorFeatures.AdvisorCommandsAPI",
+    "Method": "\u003CAddRoutes\u003Eb__5_1",
+    "RelativePath": "api/Advisor/Update",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cmd",
+        "Type": "ApexaTechAssess.Api.Features.AdvisorFeatures.Commands.UpdateAdvisorCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
