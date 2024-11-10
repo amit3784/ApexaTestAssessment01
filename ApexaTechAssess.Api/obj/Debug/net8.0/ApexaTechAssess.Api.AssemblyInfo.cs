@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("64bd9521-01bc-4439-b2a4-a0a43f5cf862")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApexaTechAssess.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61409420479c892c7e9ccf4e0242284066dfc7af")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8918329cc4c566f678e66186216b35f3d32220f")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApexaTechAssess.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApexaTechAssess.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

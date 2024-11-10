@@ -3,14 +3,27 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ApexaTechAssess.Api.Features.AdvisorFeatures.DB
 {
+    /// <summary>
+    /// This DB context servers as a datacontext for Advisor related information.
+    /// </summary>
     public class AdvisorDbContext : DbContext
     {
+        /// <summary>
+        /// Initialize db context class
+        /// </summary>
+        /// <param name="options"></param>
         public AdvisorDbContext(DbContextOptions options) : base(options)
         {
         }
 
+        /// <summary>
+        /// DBset for advisor
+        /// </summary>
         public DbSet<Advisor> Advisors { get; set; }
-
+        /// <summary>
+        /// model builder validations.
+        /// </summary>
+        /// <param name="modelBuilder"></param>
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Advisor>(advisor =>

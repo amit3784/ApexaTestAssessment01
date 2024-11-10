@@ -3,8 +3,12 @@ using MediatR;
 
 namespace ApexaTechAssess.Api.Features.AdvisorFeatures.Qerries
 {
-    public record GetAdvisorQueryById(int id) : IRequest<Advisor>
-    {
+    /// <summary>
+    /// this query is used to get an advisor based on the unique id provided by client.
+    /// </summary>
+    /// <param name="id"></param>
+    public record GetAdvisorQueryById(int id) : IRequest<Advisor>;
+    
 
-    }
+    
 }

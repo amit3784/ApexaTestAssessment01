@@ -151,3 +151,5 @@ C:\Amitabh\TechnicalAssessments\GitHubDesktop\ApexaTestAssessment01\ApexaTechAss
 C:\Amitabh\TechnicalAssessments\GitHubDesktop\ApexaTestAssessment01\ApexaTechAssess.Api\obj\Debug\net8.0\ApexaTechAssess.Api.pdb
 C:\Amitabh\TechnicalAssessments\GitHubDesktop\ApexaTestAssessment01\ApexaTechAssess.Api\obj\Debug\net8.0\ApexaTechAssess.Api.genruntimeconfig.cache
 C:\Amitabh\TechnicalAssessments\GitHubDesktop\ApexaTestAssessment01\ApexaTechAssess.Api\obj\Debug\net8.0\ref\ApexaTechAssess.Api.dll
+C:\Amitabh\TechnicalAssessments\GitHubDesktop\ApexaTestAssessment01\ApexaTechAssess.Api\bin\Debug\net8.0\ApexaTechAssess.Api.xml
+C:\Amitabh\TechnicalAssessments\GitHubDesktop\ApexaTestAssessment01\ApexaTechAssess.Api\obj\Debug\net8.0\ApexaTechAssess.Api.xml

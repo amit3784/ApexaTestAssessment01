@@ -4,9 +4,17 @@ using System.Text.Json;
 
 namespace ApexaTechAssess.Api.ExternalSystems
 {
+    /// <summary>
+    /// Custom exception logger impletementation as a middleware
+    /// </summary>
     public class CustomExceptionLogger :IMiddleware
     {
-        
+        /// <summary>
+        /// Invoke  method implementation
+        /// </summary>
+        /// <param name="context"></param>
+        /// <param name="next"></param>
+        /// <returns></returns>
         public async Task InvokeAsync(HttpContext context, RequestDelegate next)
         {
             try

@@ -4,8 +4,14 @@ using FluentValidation;
 
 namespace ApexaTechAssess.Api.Features.AdvisorFeatures.Validations
 {
+    /// <summary>
+    /// this class is used to validate the UpdateAdvisorCommand for the input fields.
+    /// </summary>
     public class UpdateAdvisorCommandValidator : AbstractValidator<UpdateAdvisorCommand>
     {
+        /// <summary>
+        /// this constructor is used to validate the input fields for update advisor command.
+        /// </summary>
         public UpdateAdvisorCommandValidator()
         {
             RuleFor(x => x.FullName).NotEmpty().WithMessage("Full name can not be empty!");

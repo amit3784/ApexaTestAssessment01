@@ -9,22 +9,34 @@ using System.Reflection;
 
 namespace ApexaTechAssess.Api.Features.AdvisorFeatures
 {
+    /// <summary>
+    /// This class is used as a placeholder for all command API such as Post, put or delete
+    /// </summary>
     public class AdvisorCommandsAPI : ICarterModule
     {
         
-
+        /// <summary>
+        /// Command routes
+        /// </summary>
+        /// <param name="app"></param>
         public void AddRoutes(IEndpointRouteBuilder app)
         {
-            
-            ////Create Advisor 
+
+          
             app.MapPost("api/Advisor/Create", async (ISender sender,[FromBody]CreateAdvisorCommand cmd) =>
             {
                 CreateAdvisorCommandValidator _createAdvisorValidator = new CreateAdvisorCommandValidator();
                 var validationResult= _createAdvisorValidator.Validate(cmd);
                 if (validationResult.IsValid)
                 {
-                    var result = await sender.Send(cmd);
-                    return Results.Ok(result);
+                    try
+                    {
+                        var result = await sender.Send(cmd);
+                        return Results.Ok(result);
+                    }
+                    catch (Exception ex) {
+                        return Results.BadRequest(ex);
+                    }
                 }
                 else
                 {
@@ -34,15 +46,21 @@ namespace ApexaTechAssess.Api.Features.AdvisorFeatures
             }).WithDisplayName("CreateAdvisor")
             .WithOpenApi();
 
-            ////Update Advisor 
+            
             app.MapPut("api/Advisor/Update", async (ISender sender,[FromBody] UpdateAdvisorCommand cmd) =>
             {
                 UpdateAdvisorCommandValidator _updateAdvisorValidator = new UpdateAdvisorCommandValidator();
                 var validationResults= _updateAdvisorValidator.Validate(cmd);
                 if (validationResults.IsValid)
                 {
-                    var result = await sender.Send(cmd);
-                    return Results.Ok(result);
+                    try
+                    {
+                        var result = await sender.Send(cmd);
+                        return Results.Ok(result);
+                    }
+                    catch(Exception ex) {
+                        return Results.BadRequest(ex);
+                    }
                 }
                 else
                 {
@@ -52,10 +70,17 @@ namespace ApexaTechAssess.Api.Features.AdvisorFeatures
             }).WithDisplayName("UpdateAdvisorDetails")
             .WithOpenApi();
 
-            ////Delete Advisor 
+            
             app.MapDelete("api/Advisor/Delete", async (ISender sender, [FromBody] DeleteAdvisorCommand cmd) =>
             {
-                 await sender.Send(cmd);
+                try
+                {
+                    await sender.Send(cmd);
+                    return Results.NoContent();
+                }
+                catch(Exception ex) {
+                    return Results.BadRequest(ex);
+                }
                 
             }).WithDisplayName("DeleteAdvisor")
             .WithOpenApi();

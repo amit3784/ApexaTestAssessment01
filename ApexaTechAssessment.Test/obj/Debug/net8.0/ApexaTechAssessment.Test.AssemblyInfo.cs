@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApexaTechAssessment.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61409420479c892c7e9ccf4e0242284066dfc7af")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8918329cc4c566f678e66186216b35f3d32220f")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApexaTechAssessment.Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApexaTechAssessment.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

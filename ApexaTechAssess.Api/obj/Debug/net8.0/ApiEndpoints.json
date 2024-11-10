@@ -44,7 +44,7 @@
     ]
   },
   {
-    "ContainingType": "ApexaTechAssess.Api.Features.AdvisorFeatures.AdvisorQueryAPISets\u002B\u003C\u003Ec",
+    "ContainingType": "ApexaTechAssess.Api.Features.AdvisorFeatures.AdvisorQueryAPI\u002B\u003C\u003Ec",
     "Method": "\u003CAddRoutes\u003Eb__0_0",
     "RelativePath": "api/Advisor/GetAll",
     "HttpMethod": "GET",
@@ -53,16 +53,14 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ApexaTechAssess.Api.Features.AdvisorFeatures.Domain.Advisor, ApexaTechAssess.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "application/json"
-        ],
+        "Type": "System.Void",
+        "MediaTypes": [],
         "StatusCode": 200
       }
     ]
   },
   {
-    "ContainingType": "ApexaTechAssess.Api.Features.AdvisorFeatures.AdvisorQueryAPISets\u002B\u003C\u003Ec",
+    "ContainingType": "ApexaTechAssess.Api.Features.AdvisorFeatures.AdvisorQueryAPI\u002B\u003C\u003Ec",
     "Method": "\u003CAddRoutes\u003Eb__0_1",
     "RelativePath": "api/Advisor/GetById",
     "HttpMethod": "POST",
@@ -77,10 +75,8 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ApexaTechAssess.Api.Features.AdvisorFeatures.Domain.Advisor",
-        "MediaTypes": [
-          "application/json"
-        ],
+        "Type": "System.Void",
+        "MediaTypes": [],
         "StatusCode": 200
       }
     ]

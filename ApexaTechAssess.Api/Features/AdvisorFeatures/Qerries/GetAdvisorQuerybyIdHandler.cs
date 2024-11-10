@@ -6,24 +6,32 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ApexaTechAssess.Api.Features.AdvisorFeatures.Qerries
 {
-    public class GetAdvisorQuerybyIdHandler : IRequestHandler<GetAdvisorQueryById, Advisor>
+    /// <summary>
+    /// this handler is used to handle the GetAdvisorQueryHandlerById request.
+    /// </summary>
+    public class GetAdvisorQuerybyIdHandler : IRequestHandler<GetAdvisorQueryById, Advisor?>
     {
         private readonly IAdvisorRepository advisorRepository;
 
+        /// <summary>
+        /// Initialize the handler
+        /// </summary>
+        /// <param name="advisorRepository"></param>
         public GetAdvisorQuerybyIdHandler(IAdvisorRepository advisorRepository)
         {
             this.advisorRepository = advisorRepository;
         }
 
-        public async Task<Advisor> Handle(GetAdvisorQueryById request, CancellationToken cancellationToken)
+        /// <summary>
+        /// Get advisor query by id handler method.
+        /// </summary>
+        /// <param name="request"></param>
+        /// <param name="cancellationToken"></param>
+        /// <returns></returns>
+        public async Task<Advisor?> Handle(GetAdvisorQueryById request, CancellationToken cancellationToken)
         {
             var result = await advisorRepository.GetAdvisorByIdAsync(request.id);
-            if (result is not null)
-            {
-                return result;
-            }
-            else
-                return result;
+            return result;
         }
     }
 }
