@@ -1,6 +1,8 @@
 ## Introduction to Apexa Advisor API
 
-Welcome to Apexa advisor API , which is built using below technologies
+This API is used  to interact with advisor entity in the in mememory database and provides the ability to list,create , read , uppdate and delete the advisor.
+
+### Technologies used-
 
     - .NET Core 8.0
     - C#
