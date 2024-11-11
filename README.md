@@ -35,3 +35,28 @@ The details about the API used are listed below-
    
         api/Advisor/Delete
   
+
+# Images
+
+## Advisor API
+### Full View
+
+![alt text](image.png)
+
+### Create Advisor API
+
+![alt text](image-1.png)
+
+### Update Advisor API
+![alt text](image-2.png)
+
+### Delete Advisor API
+![alt text](image-3.png)
+
+### Get All Advisors
+![alt text](image-4.png)
+
+### Get Advisor by id
+![alt text](image-5.png)
+
+## Thank you reading till this point , Happy Learning!!
