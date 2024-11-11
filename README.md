@@ -14,6 +14,11 @@ This API is used  to interact with advisor entity in the in mememory database an
  
 The details about the API used are listed below-
 
+### Overall high level flow-
+
+![image](https://github.com/user-attachments/assets/5395b156-c55a-4ce4-b294-bfab98d4b0a0)
+
+
 1. Get All Advisors:-this api is used to get all the advisors.
 
         api/Advisor/GetAll
