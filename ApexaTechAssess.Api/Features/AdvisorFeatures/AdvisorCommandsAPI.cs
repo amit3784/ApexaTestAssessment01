@@ -71,10 +71,11 @@ namespace ApexaTechAssess.Api.Features.AdvisorFeatures
             .WithOpenApi();
 
             
-            app.MapDelete("api/Advisor/Delete", async (ISender sender, [FromBody] DeleteAdvisorCommand cmd) =>
+            app.MapDelete("api/Advisor/Delete/{id:int}", async (int id,ISender sender) =>
             {
                 try
                 {
+                    DeleteAdvisorCommand cmd = new DeleteAdvisorCommand(id);
                     await sender.Send(cmd);
                     return Results.NoContent();
                 }

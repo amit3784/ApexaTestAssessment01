@@ -20,7 +20,7 @@ namespace ApexaTechAssess.Api.Features.AdvisorFeatures.Domain
         public required string FullName { get; set; }
 
         
-        private string _sin=string.Empty;
+        private string _sin="000000000";
 
         /// <summary>
         /// SIN Number - unique code - must be 9 digits
@@ -42,7 +42,7 @@ namespace ApexaTechAssess.Api.Features.AdvisorFeatures.Domain
         /// </summary>
         public string Address { get; set; } = string.Empty;
 
-        private string _phoneNumber=string.Empty;
+        private string _phoneNumber= "0000000000";
 
         /// <summary>
         /// Phone Number - must be 10 digits if available.

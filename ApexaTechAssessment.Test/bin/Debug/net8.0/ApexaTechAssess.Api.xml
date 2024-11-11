@@ -1,0 +1,464 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApexaTechAssess.Api</name>
+    </assembly>
+    <members>
+        <member name="T:ApexaTechAssess.Api.ExternalSystems.CustomExceptionLogger">
+            <summary>
+            Custom exception logger impletementation as a middleware
+            </summary>
+        </member>
+        <member name="M:ApexaTechAssess.Api.ExternalSystems.CustomExceptionLogger.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext,Microsoft.AspNetCore.Http.RequestDelegate)">
+            <summary>
+            Invoke  method implementation
+            </summary>
+            <param name="context"></param>
+            <param name="next"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ApexaTechAssess.Api.ExternalSystems.ICustomExceptionLogger">
+            <summary>
+            Custom exception logger interface
+            </summary>
+        </member>
+        <member name="M:ApexaTechAssess.Api.ExternalSystems.ICustomExceptionLogger.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext,Microsoft.AspNetCore.Http.RequestDelegate)">
+            <summary>
+            Task to invoke request delegate
+            </summary>
+            <param name="context"></param>
+            <param name="next"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ApexaTechAssess.Api.Features.AdvisorFeatures.AdvisorCommandsAPI">
+            <summary>
+            This class is used as a placeholder for all command API such as Post, put or delete
+            </summary>
+        </member>
+        <member name="M:ApexaTechAssess.Api.Features.AdvisorFeatures.AdvisorCommandsAPI.AddRoutes(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder)">
+            <summary>
+            Command routes
+            </summary>
+            <param name="app"></param>
+        </member>
+        <member name="T:ApexaTechAssess.Api.Features.AdvisorFeatures.AdvisorQueryAPI">
+            <summary>
+            This class is used as a placeholder for all query API.
+            </summary>
+        </member>
+        <member name="M:ApexaTechAssess.Api.Features.AdvisorFeatures.AdvisorQueryAPI.AddRoutes(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder)">
+            <summary>
+            Query API routes
+            </summary>
+            <param name="app"></param>
+        </member>
+        <member name="T:ApexaTechAssess.Api.Features.AdvisorFeatures.Commands.CreateAdvisorCommand">
+            <summary>
+            This command is responsible to create the advisor to in-memory database.
+            </summary>
+        </member>
+        <member name="P:ApexaTechAssess.Api.Features.AdvisorFeatures.Commands.CreateAdvisorCommand.FullName">
+            <summary>
+            Full Name
+            </summary>
+        </member>
+        <member name="P:ApexaTechAssess.Api.Features.AdvisorFeatures.Commands.CreateAdvisorCommand.SIN">
+            <summary>
+            SIN Number
+            </summary>
+        </member>
+        <member name="P:ApexaTechAssess.Api.Features.AdvisorFeatures.Commands.CreateAdvisorCommand.Address">
+            <summary>
+            Address
+            </summary>
+        </member>
+        <member name="P:ApexaTechAssess.Api.Features.AdvisorFeatures.Commands.CreateAdvisorCommand.PhoneNumber">
+            <summary>
+            Phone Number
+            </summary>
+        </member>
+        <member name="T:ApexaTechAssess.Api.Features.AdvisorFeatures.Commands.CreateAdvisorCommandHandler">
+            <summary>
+            This command handler is responsible to handle CreateAdvisorCommand request.
+            </summary>
+        </member>
+        <member name="M:ApexaTechAssess.Api.Features.AdvisorFeatures.Commands.CreateAdvisorCommandHandler.#ctor(ApexaTechAssess.Api.Features.AdvisorFeatures.Repos.IAdvisorRepository)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="repository"></param>
+        </member>
+        <member name="M:ApexaTechAssess.Api.Features.AdvisorFeatures.Commands.CreateAdvisorCommandHandler.Handle(ApexaTechAssess.Api.Features.AdvisorFeatures.Commands.CreateAdvisorCommand,System.Threading.CancellationToken)">
+            <summary>
+            Create advisor command handler method
+            </summary>
+            <param name="request"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ApexaTechAssess.Api.Features.AdvisorFeatures.Commands.DeleteAdvisorCommand">
+            <summary>
+            This command is responsible to delete the advisor from in-memory database.
+            </summary>
+        </member>
+        <member name="M:ApexaTechAssess.Api.Features.AdvisorFeatures.Commands.DeleteAdvisorCommand.#ctor(System.Int32)">
+            <summary>
+            This command is responsible to delete the advisor from in-memory database.
+            </summary>
+        </member>
+        <member name="T:ApexaTechAssess.Api.Features.AdvisorFeatures.Commands.DeleteAdvisorCommandHandler">
+            <summary>
+            This handler is responsible to handle deleteadvisorcommand request.
+            </summary>
+        </member>
+        <member name="M:ApexaTechAssess.Api.Features.AdvisorFeatures.Commands.DeleteAdvisorCommandHandler.#ctor(ApexaTechAssess.Api.Features.AdvisorFeatures.Repos.IAdvisorRepository)">
+            <summary>
+            Constructor for delete advisor command
+            </summary>
+            <param name="repository"></param>
+        </member>
+        <member name="M:ApexaTechAssess.Api.Features.AdvisorFeatures.Commands.DeleteAdvisorCommandHandler.Handle(ApexaTechAssess.Api.Features.AdvisorFeatures.Commands.DeleteAdvisorCommand,System.Threading.CancellationToken)">
+            <summary>
+            Handler method for delete advisor command
+            </summary>
+            <param name="request"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ApexaTechAssess.Api.Features.AdvisorFeatures.Commands.UpdateAdvisorCommand">
+            <summary>
+            This command is responsible to update the advisor information to in-memory database.
+            </summary>
+        </member>
+        <member name="P:ApexaTechAssess.Api.Features.AdvisorFeatures.Commands.UpdateAdvisorCommand.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:ApexaTechAssess.Api.Features.AdvisorFeatures.Commands.UpdateAdvisorCommand.FullName">
+            <summary>
+            Full Name
+            </summary>
+        </member>
+        <member name="P:ApexaTechAssess.Api.Features.AdvisorFeatures.Commands.UpdateAdvisorCommand.SIN">
+            <summary>
+            SIN Number
+            </summary>
+        </member>
+        <member name="P:ApexaTechAssess.Api.Features.AdvisorFeatures.Commands.UpdateAdvisorCommand.Address">
+            <summary>
+            Address 
+            </summary>
+        </member>
+        <member name="P:ApexaTechAssess.Api.Features.AdvisorFeatures.Commands.UpdateAdvisorCommand.PhoneNumber">
+            <summary>
+            Phone Number
+            </summary>
+        </member>
+        <member name="T:ApexaTechAssess.Api.Features.AdvisorFeatures.Commands.UpdateAdvisorCommandHandler">
+            <summary>
+            This command is responsible to handle the updateadvisorcommand request.
+            </summary>
+        </member>
+        <member name="M:ApexaTechAssess.Api.Features.AdvisorFeatures.Commands.UpdateAdvisorCommandHandler.#ctor(ApexaTechAssess.Api.Features.AdvisorFeatures.Repos.IAdvisorRepository)">
+            <summary>
+            Initialize command handler
+            </summary>
+            <param name="advisorRepository"></param>
+        </member>
+        <member name="M:ApexaTechAssess.Api.Features.AdvisorFeatures.Commands.UpdateAdvisorCommandHandler.Handle(ApexaTechAssess.Api.Features.AdvisorFeatures.Commands.UpdateAdvisorCommand,System.Threading.CancellationToken)">
+            <summary>
+            Handler method
+            </summary>
+            <param name="request"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ApexaTechAssess.Api.Features.AdvisorFeatures.DB.AdvisorDbContext">
+            <summary>
+            This DB context servers as a datacontext for Advisor related information.
+            </summary>
+        </member>
+        <member name="M:ApexaTechAssess.Api.Features.AdvisorFeatures.DB.AdvisorDbContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions)">
+            <summary>
+            Initialize db context class
+            </summary>
+            <param name="options"></param>
+        </member>
+        <member name="P:ApexaTechAssess.Api.Features.AdvisorFeatures.DB.AdvisorDbContext.Advisors">
+            <summary>
+            DBset for advisor
+            </summary>
+        </member>
+        <member name="M:ApexaTechAssess.Api.Features.AdvisorFeatures.DB.AdvisorDbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <summary>
+            model builder validations.
+            </summary>
+            <param name="modelBuilder"></param>
+        </member>
+        <member name="T:ApexaTechAssess.Api.Features.AdvisorFeatures.Domain.Advisor">
+            <summary>
+            This class is responsible to hold advisor related information.
+            </summary>
+        </member>
+        <member name="P:ApexaTechAssess.Api.Features.AdvisorFeatures.Domain.Advisor.Id">
+            <summary>
+            Id - unique id
+            </summary>
+        </member>
+        <member name="P:ApexaTechAssess.Api.Features.AdvisorFeatures.Domain.Advisor.FullName">
+            <summary>
+            Full Name
+            </summary>
+        </member>
+        <member name="P:ApexaTechAssess.Api.Features.AdvisorFeatures.Domain.Advisor.SIN">
+            <summary>
+            SIN Number - unique code - must be 9 digits
+            </summary>
+        </member>
+        <member name="P:ApexaTechAssess.Api.Features.AdvisorFeatures.Domain.Advisor.Address">
+            <summary>
+            Address information
+            </summary>
+        </member>
+        <member name="P:ApexaTechAssess.Api.Features.AdvisorFeatures.Domain.Advisor.PhoneNumber">
+            <summary>
+            Phone Number - must be 10 digits if available.
+            </summary>
+        </member>
+        <member name="P:ApexaTechAssess.Api.Features.AdvisorFeatures.Domain.Advisor.HealthStatus">
+            <summary>
+            Health status - randomly generated based on probability of green=0.6 , yellow=0.2 and red=0.2
+            </summary>
+        </member>
+        <member name="T:ApexaTechAssess.Api.Features.AdvisorFeatures.Domain.WellnessStatus">
+            <summary>
+            This structure is used to hold the health status of the advisor.
+            </summary>
+        </member>
+        <member name="F:ApexaTechAssess.Api.Features.AdvisorFeatures.Domain.WellnessStatus.Green">
+            <summary>
+            healthy
+            </summary>
+        </member>
+        <member name="F:ApexaTechAssess.Api.Features.AdvisorFeatures.Domain.WellnessStatus.Yellow">
+            <summary>
+            Moderate risk
+            </summary>
+        </member>
+        <member name="F:ApexaTechAssess.Api.Features.AdvisorFeatures.Domain.WellnessStatus.Red">
+            <summary>
+            Risk
+            </summary>
+        </member>
+        <member name="T:ApexaTechAssess.Api.Features.AdvisorFeatures.Qerries.GetAdvisorQuery">
+            <summary>
+            This query is used to get a list of advisors from in-memory database.
+            </summary>
+            <return>
+                a list of advisors.
+            </return>
+        </member>
+        <member name="M:ApexaTechAssess.Api.Features.AdvisorFeatures.Qerries.GetAdvisorQuery.#ctor">
+            <summary>
+            This query is used to get a list of advisors from in-memory database.
+            </summary>
+            <return>
+                a list of advisors.
+            </return>
+        </member>
+        <member name="T:ApexaTechAssess.Api.Features.AdvisorFeatures.Qerries.GetAdvisorQueryById">
+            <summary>
+            this query is used to get an advisor based on the unique id provided by client.
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:ApexaTechAssess.Api.Features.AdvisorFeatures.Qerries.GetAdvisorQueryById.#ctor(System.Int32)">
+            <summary>
+            this query is used to get an advisor based on the unique id provided by client.
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="P:ApexaTechAssess.Api.Features.AdvisorFeatures.Qerries.GetAdvisorQueryById.id">
+            <summary></summary>
+        </member>
+        <member name="T:ApexaTechAssess.Api.Features.AdvisorFeatures.Qerries.GetAdvisorQuerybyIdHandler">
+            <summary>
+            this handler is used to handle the GetAdvisorQueryHandlerById request.
+            </summary>
+        </member>
+        <member name="M:ApexaTechAssess.Api.Features.AdvisorFeatures.Qerries.GetAdvisorQuerybyIdHandler.#ctor(ApexaTechAssess.Api.Features.AdvisorFeatures.Repos.IAdvisorRepository)">
+            <summary>
+            Initialize the handler
+            </summary>
+            <param name="advisorRepository"></param>
+        </member>
+        <member name="M:ApexaTechAssess.Api.Features.AdvisorFeatures.Qerries.GetAdvisorQuerybyIdHandler.Handle(ApexaTechAssess.Api.Features.AdvisorFeatures.Qerries.GetAdvisorQueryById,System.Threading.CancellationToken)">
+            <summary>
+            Get advisor query by id handler method.
+            </summary>
+            <param name="request"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ApexaTechAssess.Api.Features.AdvisorFeatures.Qerries.GetAdvisorQueryHandler">
+            <summary>
+            This command is used to handle GetAdvisorQuery request and returns a list of advisors.
+            </summary>
+        </member>
+        <member name="M:ApexaTechAssess.Api.Features.AdvisorFeatures.Qerries.GetAdvisorQueryHandler.#ctor(ApexaTechAssess.Api.Features.AdvisorFeatures.Repos.IAdvisorRepository)">
+            <summary>
+            Initialize the handler
+            </summary>
+            <param name="repository"></param>
+        </member>
+        <member name="M:ApexaTechAssess.Api.Features.AdvisorFeatures.Qerries.GetAdvisorQueryHandler.Handle(ApexaTechAssess.Api.Features.AdvisorFeatures.Qerries.GetAdvisorQuery,System.Threading.CancellationToken)">
+            <summary>
+            Get advisor query handler method.
+            </summary>
+            <param name="request"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ApexaTechAssess.Api.Features.AdvisorFeatures.Repos.AdvisorRepository">
+            <summary>
+            This repository class is used to talk with DBcontext for advisor information
+            </summary>
+        </member>
+        <member name="M:ApexaTechAssess.Api.Features.AdvisorFeatures.Repos.AdvisorRepository.#ctor(ApexaTechAssess.Api.Features.AdvisorFeatures.DB.AdvisorDbContext)">
+            <summary>
+            initializes advisor db context
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:ApexaTechAssess.Api.Features.AdvisorFeatures.Repos.AdvisorRepository.GetAdvisors">
+            <summary>
+            Get all advisors
+            </summary>
+            <returns>List of advisors</returns>
+        </member>
+        <member name="M:ApexaTechAssess.Api.Features.AdvisorFeatures.Repos.AdvisorRepository.GetAdvisorByIdAsync(System.Int32)">
+            <summary>
+            Get  advisor by id.
+            </summary>
+            <returns>advisor</returns>
+        </member>
+        <member name="M:ApexaTechAssess.Api.Features.AdvisorFeatures.Repos.AdvisorRepository.CreateAdvisor(ApexaTechAssess.Api.Features.AdvisorFeatures.Domain.Advisor)">
+            <summary>
+            Create advisors
+            </summary>
+            <returns>Advisor</returns>
+        </member>
+        <member name="M:ApexaTechAssess.Api.Features.AdvisorFeatures.Repos.AdvisorRepository.UpdateAdvisor(ApexaTechAssess.Api.Features.AdvisorFeatures.Domain.Advisor)">
+            <summary>
+            Update advisor
+            </summary>
+            <returns>Advisor</returns>
+        </member>
+        <member name="M:ApexaTechAssess.Api.Features.AdvisorFeatures.Repos.AdvisorRepository.DeleteAdvisor(System.Int32)">
+            <summary>
+            Delete advisor from DB
+            </summary>
+            <returns>Task</returns>
+        </member>
+        <member name="T:ApexaTechAssess.Api.Features.AdvisorFeatures.Repos.IAdvisorRepository">
+            <summary>
+            Interface for Advisory repository.
+            </summary>
+        </member>
+        <member name="M:ApexaTechAssess.Api.Features.AdvisorFeatures.Repos.IAdvisorRepository.CreateAdvisor(ApexaTechAssess.Api.Features.AdvisorFeatures.Domain.Advisor)">
+            <summary>
+            Command for createAdvisor.
+            </summary>
+            <param name="advisor"></param>
+            <returns>Advisor</returns>
+        </member>
+        <member name="M:ApexaTechAssess.Api.Features.AdvisorFeatures.Repos.IAdvisorRepository.DeleteAdvisor(System.Int32)">
+            <summary>
+            Command for delete advisor.
+            </summary>
+            <param name="id"></param>
+            <returns>void</returns>
+        </member>
+        <member name="M:ApexaTechAssess.Api.Features.AdvisorFeatures.Repos.IAdvisorRepository.GetAdvisorByIdAsync(System.Int32)">
+            <summary>
+            query to get advisor based on unique id.
+            </summary>
+            <param name="id"></param>
+            <returns>Advisor</returns>
+        </member>
+        <member name="M:ApexaTechAssess.Api.Features.AdvisorFeatures.Repos.IAdvisorRepository.GetAdvisors">
+            <summary>
+            query to get all advisors.
+            </summary>
+            <returns>List of advisors</returns>
+        </member>
+        <member name="M:ApexaTechAssess.Api.Features.AdvisorFeatures.Repos.IAdvisorRepository.UpdateAdvisor(ApexaTechAssess.Api.Features.AdvisorFeatures.Domain.Advisor)">
+            <summary>
+            Command for update advisor.
+            </summary>
+            <param name="advisor"></param>
+            <returns>Advisor</returns>
+        </member>
+        <member name="T:ApexaTechAssess.Api.Features.AdvisorFeatures.Validations.CommonValidations">
+            <summary>
+            this class is used to handle common validations for the input fields.
+            </summary>
+        </member>
+        <member name="M:ApexaTechAssess.Api.Features.AdvisorFeatures.Validations.CommonValidations.isValidPhone(System.String)">
+            <summary>
+            this method is used to validate if the phone number is valid and contains only digits.
+            </summary>
+            <param name="arg"></param>
+            <returns>true/false</returns>
+        </member>
+        <member name="M:ApexaTechAssess.Api.Features.AdvisorFeatures.Validations.CommonValidations.isValidSIN(System.String)">
+            <summary>
+            this method is used to validate if the sin number is valid and contains only digits.
+            </summary>
+            <param name="arg"></param>
+            <returns>true/false</returns>
+        </member>
+        <member name="T:ApexaTechAssess.Api.Features.AdvisorFeatures.Validations.CreateAdvisorCommandValidator">
+            <summary>
+            this class is used to validate the CreateAdvisorCommand for the input fields.
+            </summary>
+        </member>
+        <member name="M:ApexaTechAssess.Api.Features.AdvisorFeatures.Validations.CreateAdvisorCommandValidator.#ctor">
+            <summary>
+            this constructor is used to validate field for create advisor command.
+            </summary>
+        </member>
+        <member name="T:ApexaTechAssess.Api.Features.AdvisorFeatures.Validations.UpdateAdvisorCommandValidator">
+            <summary>
+            this class is used to validate the UpdateAdvisorCommand for the input fields.
+            </summary>
+        </member>
+        <member name="M:ApexaTechAssess.Api.Features.AdvisorFeatures.Validations.UpdateAdvisorCommandValidator.#ctor">
+            <summary>
+            this constructor is used to validate the input fields for update advisor command.
+            </summary>
+        </member>
+        <member name="T:ApexaTechAssess.Api.Helper.AdditionalHelp">
+            <summary>
+            This class is used to handle additional operations.
+            </summary>
+        </member>
+        <member name="M:ApexaTechAssess.Api.Helper.AdditionalHelp.SetRandomWellnessStatus">
+            <summary>
+            This method is used to generate the health status for an advisor randomly based on probability of green=0.6 , yellow=0.2 and red=0.2
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ApexaTechAssess.Api.Helper.Extensions.HelpExtensions">
+            <summary>
+            This extension class is used for extension methods.
+            </summary>
+        </member>
+        <member name="M:ApexaTechAssess.Api.Helper.Extensions.HelpExtensions.MaskedValue(System.String)">
+            <summary>
+            this extension method is used to mask the string values.
+            </summary>
+        </member>
+    </members>
+</doc>

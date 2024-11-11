@@ -3,40 +3,24 @@
   "WorkspaceRootPath": "C:\\Amitabh\\TechnicalAssessments\\GitHubDesktop\\ApexaTestAssessment01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A4A11C7-FBF6-4B53-9950-2EADB7D099AD}|ApexaTechAssess.Api\\ApexaTechAssess.Api.csproj|c:\\amitabh\\technicalassessments\\githubdesktop\\apexatestassessment01\\apexatechassess.api\\features\\advisorfeatures\\commands\\createadvisorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A4A11C7-FBF6-4B53-9950-2EADB7D099AD}|ApexaTechAssess.Api\\ApexaTechAssess.Api.csproj|solutionrelative:apexatechassess.api\\features\\advisorfeatures\\commands\\createadvisorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35B8FE3E-1C14-43F9-8265-56EA8281299E}|ApexaTechAssessment.Test\\ApexaTechAssessment.Test.csproj|c:\\amitabh\\technicalassessments\\githubdesktop\\apexatestassessment01\\apexatechassessment.test\\commandtest\\advisorupdatecommandtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35B8FE3E-1C14-43F9-8265-56EA8281299E}|ApexaTechAssessment.Test\\ApexaTechAssessment.Test.csproj|solutionrelative:apexatechassessment.test\\commandtest\\advisorupdatecommandtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A4A11C7-FBF6-4B53-9950-2EADB7D099AD}|ApexaTechAssess.Api\\ApexaTechAssess.Api.csproj|c:\\amitabh\\technicalassessments\\githubdesktop\\apexatestassessment01\\apexatechassess.api\\features\\advisorfeatures\\commands\\updateadvisorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A4A11C7-FBF6-4B53-9950-2EADB7D099AD}|ApexaTechAssess.Api\\ApexaTechAssess.Api.csproj|solutionrelative:apexatechassess.api\\features\\advisorfeatures\\commands\\updateadvisorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35B8FE3E-1C14-43F9-8265-56EA8281299E}|ApexaTechAssessment.Test\\ApexaTechAssessment.Test.csproj|c:\\amitabh\\technicalassessments\\githubdesktop\\apexatestassessment01\\apexatechassessment.test\\commandtest\\advisordeletecommandtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35B8FE3E-1C14-43F9-8265-56EA8281299E}|ApexaTechAssessment.Test\\ApexaTechAssessment.Test.csproj|solutionrelative:apexatechassessment.test\\commandtest\\advisordeletecommandtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A4A11C7-FBF6-4B53-9950-2EADB7D099AD}|ApexaTechAssess.Api\\ApexaTechAssess.Api.csproj|c:\\amitabh\\technicalassessments\\githubdesktop\\apexatestassessment01\\apexatechassess.api\\features\\advisorfeatures\\qerries\\getadvisorquerybyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A4A11C7-FBF6-4B53-9950-2EADB7D099AD}|ApexaTechAssess.Api\\ApexaTechAssess.Api.csproj|solutionrelative:apexatechassess.api\\features\\advisorfeatures\\qerries\\getadvisorquerybyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35B8FE3E-1C14-43F9-8265-56EA8281299E}|ApexaTechAssessment.Test\\ApexaTechAssessment.Test.csproj|c:\\amitabh\\technicalassessments\\githubdesktop\\apexatestassessment01\\apexatechassessment.test\\querytest\\getadvisorquerytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35B8FE3E-1C14-43F9-8265-56EA8281299E}|ApexaTechAssessment.Test\\ApexaTechAssessment.Test.csproj|solutionrelative:apexatechassessment.test\\querytest\\getadvisorquerytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A4A11C7-FBF6-4B53-9950-2EADB7D099AD}|ApexaTechAssess.Api\\ApexaTechAssess.Api.csproj|c:\\amitabh\\technicalassessments\\githubdesktop\\apexatestassessment01\\apexatechassess.api\\features\\advisorfeatures\\advisorqueryapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A4A11C7-FBF6-4B53-9950-2EADB7D099AD}|ApexaTechAssess.Api\\ApexaTechAssess.Api.csproj|solutionrelative:apexatechassess.api\\features\\advisorfeatures\\advisorqueryapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35B8FE3E-1C14-43F9-8265-56EA8281299E}|ApexaTechAssessment.Test\\ApexaTechAssessment.Test.csproj|c:\\amitabh\\technicalassessments\\githubdesktop\\apexatestassessment01\\apexatechassessment.test\\commandtest\\advisorcreatecommandtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35B8FE3E-1C14-43F9-8265-56EA8281299E}|ApexaTechAssessment.Test\\ApexaTechAssessment.Test.csproj|solutionrelative:apexatechassessment.test\\commandtest\\advisorcreatecommandtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A4A11C7-FBF6-4B53-9950-2EADB7D099AD}|ApexaTechAssess.Api\\ApexaTechAssess.Api.csproj|c:\\amitabh\\technicalassessments\\githubdesktop\\apexatestassessment01\\apexatechassess.api\\externalsystems\\customexceptionlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A4A11C7-FBF6-4B53-9950-2EADB7D099AD}|ApexaTechAssess.Api\\ApexaTechAssess.Api.csproj|solutionrelative:apexatechassess.api\\externalsystems\\customexceptionlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A4A11C7-FBF6-4B53-9950-2EADB7D099AD}|ApexaTechAssess.Api\\ApexaTechAssess.Api.csproj|c:\\amitabh\\technicalassessments\\githubdesktop\\apexatestassessment01\\apexatechassess.api\\features\\advisorfeatures\\domain\\advisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A4A11C7-FBF6-4B53-9950-2EADB7D099AD}|ApexaTechAssess.Api\\ApexaTechAssess.Api.csproj|solutionrelative:apexatechassess.api\\features\\advisorfeatures\\domain\\advisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A4A11C7-FBF6-4B53-9950-2EADB7D099AD}|ApexaTechAssess.Api\\ApexaTechAssess.Api.csproj|c:\\amitabh\\technicalassessments\\githubdesktop\\apexatestassessment01\\apexatechassess.api\\helper\\extensions\\helpextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A4A11C7-FBF6-4B53-9950-2EADB7D099AD}|ApexaTechAssess.Api\\ApexaTechAssess.Api.csproj|solutionrelative:apexatechassess.api\\helper\\extensions\\helpextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A4A11C7-FBF6-4B53-9950-2EADB7D099AD}|ApexaTechAssess.Api\\ApexaTechAssess.Api.csproj|c:\\amitabh\\technicalassessments\\githubdesktop\\apexatestassessment01\\apexatechassess.api\\helper\\additionalhelp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A4A11C7-FBF6-4B53-9950-2EADB7D099AD}|ApexaTechAssess.Api\\ApexaTechAssess.Api.csproj|solutionrelative:apexatechassess.api\\helper\\additionalhelp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A4A11C7-FBF6-4B53-9950-2EADB7D099AD}|ApexaTechAssess.Api\\ApexaTechAssess.Api.csproj|c:\\amitabh\\technicalassessments\\githubdesktop\\apexatestassessment01\\apexatechassess.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A4A11C7-FBF6-4B53-9950-2EADB7D099AD}|ApexaTechAssess.Api\\ApexaTechAssess.Api.csproj|solutionrelative:apexatechassess.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35B8FE3E-1C14-43F9-8265-56EA8281299E}|ApexaTechAssessment.Test\\ApexaTechAssessment.Test.csproj|c:\\amitabh\\technicalassessments\\githubdesktop\\apexatestassessment01\\apexatechassessment.test\\testhelpers\\searializableadvisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35B8FE3E-1C14-43F9-8265-56EA8281299E}|ApexaTechAssessment.Test\\ApexaTechAssessment.Test.csproj|solutionrelative:apexatechassessment.test\\testhelpers\\searializableadvisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,118 +43,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UpdateAdvisorCommand.cs",
-              "DocumentMoniker": "C:\\Amitabh\\TechnicalAssessments\\GitHubDesktop\\ApexaTestAssessment01\\ApexaTechAssess.Api\\Features\\AdvisorFeatures\\Commands\\UpdateAdvisorCommand.cs",
-              "RelativeDocumentMoniker": "ApexaTechAssess.Api\\Features\\AdvisorFeatures\\Commands\\UpdateAdvisorCommand.cs",
-              "ToolTip": "C:\\Amitabh\\TechnicalAssessments\\GitHubDesktop\\ApexaTestAssessment01\\ApexaTechAssess.Api\\Features\\AdvisorFeatures\\Commands\\UpdateAdvisorCommand.cs",
-              "RelativeToolTip": "ApexaTechAssess.Api\\Features\\AdvisorFeatures\\Commands\\UpdateAdvisorCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAYAAAAAAAAAA==",
+              "Title": "AdvisorDeleteCommandTest.cs",
+              "DocumentMoniker": "C:\\Amitabh\\TechnicalAssessments\\GitHubDesktop\\ApexaTestAssessment01\\ApexaTechAssessment.Test\\CommandTest\\AdvisorDeleteCommandTest.cs",
+              "RelativeDocumentMoniker": "ApexaTechAssessment.Test\\CommandTest\\AdvisorDeleteCommandTest.cs",
+              "ToolTip": "C:\\Amitabh\\TechnicalAssessments\\GitHubDesktop\\ApexaTestAssessment01\\ApexaTechAssessment.Test\\CommandTest\\AdvisorDeleteCommandTest.cs",
+              "RelativeToolTip": "ApexaTechAssessment.Test\\CommandTest\\AdvisorDeleteCommandTest.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAjwBMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T07:57:39.232Z",
+              "WhenOpened": "2024-11-10T23:57:51.609Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CreateAdvisorCommand.cs",
-              "DocumentMoniker": "C:\\Amitabh\\TechnicalAssessments\\GitHubDesktop\\ApexaTestAssessment01\\ApexaTechAssess.Api\\Features\\AdvisorFeatures\\Commands\\CreateAdvisorCommand.cs",
-              "RelativeDocumentMoniker": "ApexaTechAssess.Api\\Features\\AdvisorFeatures\\Commands\\CreateAdvisorCommand.cs",
-              "ToolTip": "C:\\Amitabh\\TechnicalAssessments\\GitHubDesktop\\ApexaTestAssessment01\\ApexaTechAssess.Api\\Features\\AdvisorFeatures\\Commands\\CreateAdvisorCommand.cs",
-              "RelativeToolTip": "ApexaTechAssess.Api\\Features\\AdvisorFeatures\\Commands\\CreateAdvisorCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Title": "AdvisorUpdateCommandTest.cs",
+              "DocumentMoniker": "C:\\Amitabh\\TechnicalAssessments\\GitHubDesktop\\ApexaTestAssessment01\\ApexaTechAssessment.Test\\CommandTest\\AdvisorUpdateCommandTest.cs",
+              "RelativeDocumentMoniker": "ApexaTechAssessment.Test\\CommandTest\\AdvisorUpdateCommandTest.cs",
+              "ToolTip": "C:\\Amitabh\\TechnicalAssessments\\GitHubDesktop\\ApexaTestAssessment01\\ApexaTechAssessment.Test\\CommandTest\\AdvisorUpdateCommandTest.cs",
+              "RelativeToolTip": "ApexaTechAssessment.Test\\CommandTest\\AdvisorUpdateCommandTest.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAqwB0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T07:56:07.843Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetAdvisorQuerybyIdHandler.cs",
-              "DocumentMoniker": "C:\\Amitabh\\TechnicalAssessments\\GitHubDesktop\\ApexaTestAssessment01\\ApexaTechAssess.Api\\Features\\AdvisorFeatures\\Qerries\\GetAdvisorQuerybyIdHandler.cs",
-              "RelativeDocumentMoniker": "ApexaTechAssess.Api\\Features\\AdvisorFeatures\\Qerries\\GetAdvisorQuerybyIdHandler.cs",
-              "ToolTip": "C:\\Amitabh\\TechnicalAssessments\\GitHubDesktop\\ApexaTestAssessment01\\ApexaTechAssess.Api\\Features\\AdvisorFeatures\\Qerries\\GetAdvisorQuerybyIdHandler.cs",
-              "RelativeToolTip": "ApexaTechAssess.Api\\Features\\AdvisorFeatures\\Qerries\\GetAdvisorQuerybyIdHandler.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T07:49:06.872Z",
+              "WhenOpened": "2024-11-10T23:57:10.076Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AdvisorQueryAPI.cs",
-              "DocumentMoniker": "C:\\Amitabh\\TechnicalAssessments\\GitHubDesktop\\ApexaTestAssessment01\\ApexaTechAssess.Api\\Features\\AdvisorFeatures\\AdvisorQueryAPI.cs",
-              "RelativeDocumentMoniker": "ApexaTechAssess.Api\\Features\\AdvisorFeatures\\AdvisorQueryAPI.cs",
-              "ToolTip": "C:\\Amitabh\\TechnicalAssessments\\GitHubDesktop\\ApexaTestAssessment01\\ApexaTechAssess.Api\\Features\\AdvisorFeatures\\AdvisorQueryAPI.cs",
-              "RelativeToolTip": "ApexaTechAssess.Api\\Features\\AdvisorFeatures\\AdvisorQueryAPI.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAACUAAAAMAAAAAAAAAA==",
+              "Title": "AdvisorCreateCommandTests.cs",
+              "DocumentMoniker": "C:\\Amitabh\\TechnicalAssessments\\GitHubDesktop\\ApexaTestAssessment01\\ApexaTechAssessment.Test\\CommandTest\\AdvisorCreateCommandTests.cs",
+              "RelativeDocumentMoniker": "ApexaTechAssessment.Test\\CommandTest\\AdvisorCreateCommandTests.cs",
+              "ToolTip": "C:\\Amitabh\\TechnicalAssessments\\GitHubDesktop\\ApexaTestAssessment01\\ApexaTechAssessment.Test\\CommandTest\\AdvisorCreateCommandTests.cs",
+              "RelativeToolTip": "ApexaTechAssessment.Test\\CommandTest\\AdvisorCreateCommandTests.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAcwEoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T07:48:46.897Z",
+              "WhenOpened": "2024-11-10T23:48:54.863Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CustomExceptionLogger.cs",
-              "DocumentMoniker": "C:\\Amitabh\\TechnicalAssessments\\GitHubDesktop\\ApexaTestAssessment01\\ApexaTechAssess.Api\\ExternalSystems\\CustomExceptionLogger.cs",
-              "RelativeDocumentMoniker": "ApexaTechAssess.Api\\ExternalSystems\\CustomExceptionLogger.cs",
-              "ToolTip": "C:\\Amitabh\\TechnicalAssessments\\GitHubDesktop\\ApexaTestAssessment01\\ApexaTechAssess.Api\\ExternalSystems\\CustomExceptionLogger.cs",
-              "RelativeToolTip": "ApexaTechAssess.Api\\ExternalSystems\\CustomExceptionLogger.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "Title": "SearializableAdvisor.cs",
+              "DocumentMoniker": "C:\\Amitabh\\TechnicalAssessments\\GitHubDesktop\\ApexaTestAssessment01\\ApexaTechAssessment.Test\\TestHelpers\\SearializableAdvisor.cs",
+              "RelativeDocumentMoniker": "ApexaTechAssessment.Test\\TestHelpers\\SearializableAdvisor.cs",
+              "ToolTip": "C:\\Amitabh\\TechnicalAssessments\\GitHubDesktop\\ApexaTestAssessment01\\ApexaTechAssessment.Test\\TestHelpers\\SearializableAdvisor.cs",
+              "RelativeToolTip": "ApexaTechAssessment.Test\\TestHelpers\\SearializableAdvisor.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwA8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T07:44:12.346Z",
+              "WhenOpened": "2024-11-10T22:02:46.014Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HelpExtensions.cs",
-              "DocumentMoniker": "C:\\Amitabh\\TechnicalAssessments\\GitHubDesktop\\ApexaTestAssessment01\\ApexaTechAssess.Api\\Helper\\Extensions\\HelpExtensions.cs",
-              "RelativeDocumentMoniker": "ApexaTechAssess.Api\\Helper\\Extensions\\HelpExtensions.cs",
-              "ToolTip": "C:\\Amitabh\\TechnicalAssessments\\GitHubDesktop\\ApexaTestAssessment01\\ApexaTechAssess.Api\\Helper\\Extensions\\HelpExtensions.cs",
-              "RelativeToolTip": "ApexaTechAssess.Api\\Helper\\Extensions\\HelpExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA7AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "GetAdvisorQueryTests.cs",
+              "DocumentMoniker": "C:\\Amitabh\\TechnicalAssessments\\GitHubDesktop\\ApexaTestAssessment01\\ApexaTechAssessment.Test\\QueryTest\\GetAdvisorQueryTests.cs",
+              "RelativeDocumentMoniker": "ApexaTechAssessment.Test\\QueryTest\\GetAdvisorQueryTests.cs",
+              "ToolTip": "C:\\Amitabh\\TechnicalAssessments\\GitHubDesktop\\ApexaTestAssessment01\\ApexaTechAssessment.Test\\QueryTest\\GetAdvisorQueryTests.cs",
+              "RelativeToolTip": "ApexaTechAssessment.Test\\QueryTest\\GetAdvisorQueryTests.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAADAAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T07:40:09.114Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AdditionalHelp.cs",
-              "DocumentMoniker": "C:\\Amitabh\\TechnicalAssessments\\GitHubDesktop\\ApexaTestAssessment01\\ApexaTechAssess.Api\\Helper\\AdditionalHelp.cs",
-              "RelativeDocumentMoniker": "ApexaTechAssess.Api\\Helper\\AdditionalHelp.cs",
-              "ToolTip": "C:\\Amitabh\\TechnicalAssessments\\GitHubDesktop\\ApexaTestAssessment01\\ApexaTechAssess.Api\\Helper\\AdditionalHelp.cs",
-              "RelativeToolTip": "ApexaTechAssess.Api\\Helper\\AdditionalHelp.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAAB8AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T07:37:17.009Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Advisor.cs",
-              "DocumentMoniker": "C:\\Amitabh\\TechnicalAssessments\\GitHubDesktop\\ApexaTestAssessment01\\ApexaTechAssess.Api\\Features\\AdvisorFeatures\\Domain\\Advisor.cs",
-              "RelativeDocumentMoniker": "ApexaTechAssess.Api\\Features\\AdvisorFeatures\\Domain\\Advisor.cs",
-              "ToolTip": "C:\\Amitabh\\TechnicalAssessments\\GitHubDesktop\\ApexaTestAssessment01\\ApexaTechAssess.Api\\Features\\AdvisorFeatures\\Domain\\Advisor.cs",
-              "RelativeToolTip": "ApexaTechAssess.Api\\Features\\AdvisorFeatures\\Domain\\Advisor.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAqwDUAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T07:33:30.381Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Amitabh\\TechnicalAssessments\\GitHubDesktop\\ApexaTestAssessment01\\ApexaTechAssess.Api\\Program.cs",
-              "RelativeDocumentMoniker": "ApexaTechAssess.Api\\Program.cs",
-              "ToolTip": "C:\\Amitabh\\TechnicalAssessments\\GitHubDesktop\\ApexaTestAssessment01\\ApexaTechAssess.Api\\Program.cs",
-              "RelativeToolTip": "ApexaTechAssess.Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T06:41:33.366Z",
+              "WhenOpened": "2024-11-10T19:18:41.124Z",
               "EditorCaption": ""
             }
           ]

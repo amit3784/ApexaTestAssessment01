@@ -36,13 +36,18 @@ namespace ApexaTechAssess.Api.Features.AdvisorFeatures
 
 
             
-            app.MapPost("api/Advisor/GetById", async (ISender sender,[FromBody]GetAdvisorQueryById query) => {
+            app.MapGet("api/Advisor/GetById/{id:int}", async (int id,ISender sender) => {
 
                 try
                 {
+                    GetAdvisorQueryById query=new GetAdvisorQueryById(id);
                     var result = await sender.Send(query);
-
-                    return Results.Ok(result);
+                    if (result is not null)
+                    {
+                        return Results.Ok(result);
+                    }
+                    else
+                        return Results.NotFound();
                 }
                 catch (Exception ex)
                 {

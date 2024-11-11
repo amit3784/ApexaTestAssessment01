@@ -24,14 +24,14 @@
   {
     "ContainingType": "ApexaTechAssess.Api.Features.AdvisorFeatures.AdvisorCommandsAPI\u002B\u003C\u003Ec",
     "Method": "\u003CAddRoutes\u003Eb__0_2",
-    "RelativePath": "api/Advisor/Delete",
+    "RelativePath": "api/Advisor/Delete/{id:int}",
     "HttpMethod": "DELETE",
     "IsController": false,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "cmd",
-        "Type": "ApexaTechAssess.Api.Features.AdvisorFeatures.Commands.DeleteAdvisorCommand",
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -62,14 +62,14 @@
   {
     "ContainingType": "ApexaTechAssess.Api.Features.AdvisorFeatures.AdvisorQueryAPI\u002B\u003C\u003Ec",
     "Method": "\u003CAddRoutes\u003Eb__0_1",
-    "RelativePath": "api/Advisor/GetById",
-    "HttpMethod": "POST",
+    "RelativePath": "api/Advisor/GetById/{id:int}",
+    "HttpMethod": "GET",
     "IsController": false,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "query",
-        "Type": "ApexaTechAssess.Api.Features.AdvisorFeatures.Qerries.GetAdvisorQueryById",
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
