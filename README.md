@@ -2,18 +2,15 @@
 
 This API is used  to interact with advisor entity in the in mememory database and provides the ability to list,create , read , uppdate and delete the advisor.
 
-### Technologies used-
+### Frameworks and Libraries used-
 
     - .NET Core 8.0
     - C#
     - MediateR
     - Carter
     - In memory database
-
-In addition to above technologies , here are some design patterns and principles used-
-
-    - CQRS to seggregate commands and queries
-    - Vertical slice architecture to promote modularity
+    - CQRS -to seggregate commands and queries
+    - Vertical slice architecture -to promote modularity
  
 The details about the API used are listed below-
 
