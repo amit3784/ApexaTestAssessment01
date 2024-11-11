@@ -40,23 +40,27 @@ The details about the API used are listed below-
 
 ## Advisor API
 ### Full View
-
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/b4022b60-ac02-496b-94f1-f12910bb68a9)
 
 ### Create Advisor API
 
-![alt text](image-1.png)
+![image](https://github.com/user-attachments/assets/1dd7c64e-ccc6-4e8e-873d-7a2a4208272b)
+
 
 ### Update Advisor API
-![alt text](image-2.png)
+![image](https://github.com/user-attachments/assets/9abb4b37-1575-424b-948f-4e9a973cea0d)
+
 
 ### Delete Advisor API
-![alt text](image-3.png)
+![image](https://github.com/user-attachments/assets/ce915415-1553-4036-b08f-a8fd07570814)
+
 
 ### Get All Advisors
-![alt text](image-4.png)
+![image](https://github.com/user-attachments/assets/4341df15-ddc6-436a-96b7-43480218e087)
+
 
 ### Get Advisor by id
-![alt text](image-5.png)
+![image](https://github.com/user-attachments/assets/28d3f97a-a176-4561-a234-eaf282ddc665)
+
 
 ## Thank you reading till this point , Happy Learning!!
