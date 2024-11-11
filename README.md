@@ -63,4 +63,4 @@ The details about the API used are listed below-
 ![image](https://github.com/user-attachments/assets/28d3f97a-a176-4561-a234-eaf282ddc665)
 
 
-## Thank you reading till this point , Happy Learning!!
+## Thank you for reading the documentation.
